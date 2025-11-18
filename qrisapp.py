@@ -181,7 +181,7 @@ with cols[2].container(border=True, height="stretch"):
             color=alt.Color('Kelompok_Usia:N', title='Kelompok Usia'),
             tooltip=['Metode_pembayaran', 'Kelompok_Usia', 'Total_Users']
         )
-        .properties(title="Metode Pembayaran vs. Kelompok Usia (Terbanyak di Kiri)")
+        .properties(title="Metode Pembayaran vs. Kelompok Usia)
         # bisa tambahkan .interactive() memungkinkan zoom dan pan
     )
 
@@ -282,3 +282,4 @@ with cols[1].container(border=True, height="stretch"):
     
 
     # run: python -m streamlit run qrisapp.py
+
