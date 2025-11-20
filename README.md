@@ -36,7 +36,7 @@ This repository presents the results of a comprehensive 2025 survey analysis on 
    pip install -r requirements.txt
    ```
 
-   *(Ensure `requirements.txt` includes `streamlit`, `pandas`, and the plotting libraries used.)*
+   *(Ensure `requirements.txt` includes `streamlit`, `pandas`, and `altair`*
 
 3. **Run the App:**
 
@@ -46,7 +46,7 @@ This repository presents the results of a comprehensive 2025 survey analysis on 
 
 ### **Contributions**
 
-Contributions are welcome—whether in the form of Streamlit code improvements, visualization suggestions, or discovering new insights from the dataset.
+Appreciate any form of contribution such as Streamlit code improvements, visualization suggestions, or discovering new insights from data.
 
 ---
 
@@ -84,7 +84,7 @@ Repositori ini menyajikan hasil analisis data survei komprehensif (Tahun 2025) m
     pip install -r requirements.txt
     ```
 
-    *(Pastikan `requirements.txt` mencantumkan `streamlit`, `pandas`, dan *libraries* plotting yang digunakan).*
+    *(Pastikan `requirements.txt` mencantumkan `streamlit`, `pandas`, dan `altair`*
 
 3.  **Jalankan Aplikasi:**
 
@@ -94,4 +94,4 @@ Repositori ini menyajikan hasil analisis data survei komprehensif (Tahun 2025) m
 
 ### Kontribusi
 
-Kami menyambut kontribusi dalam bentuk penyempurnaan kode Streamlit, saran visualisasi, atau penemuan wawasan baru dari data.
+Menghargai segala bentuk kontribusi seperti penyempurnaan kode Streamlit, saran visualisasi, atau penemuan wawasan baru dari data.
