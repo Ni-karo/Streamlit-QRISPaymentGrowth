@@ -26,8 +26,8 @@ This repository presents the results of a comprehensive 2025 survey analysis on 
 1. **Clone the Repository:**
 
    ```bash
-   git clone [Your_Repo_Link]
-   cd [Your_Repo_Name]
+   git clone [https://github.com/Ni-karo/Streamlit-QRISPaymentGrowth/tree/main]
+   cd [Streamlit-QRISPaymentGrowth]
    ```
 
 2. **Install Dependencies:**
