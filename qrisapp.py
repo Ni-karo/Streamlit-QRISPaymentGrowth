@@ -76,10 +76,10 @@ with cols[3].container(border=False, height="stretch"):
     st.markdown(html_content, unsafe_allow_html=True)
 
 """
-## Statistics
+## Statistik
 """
 # dataset
-csv_path = "https://raw.githubusercontent.com/Ni-karo/Streamlit-QRISPaymentGrowth/refs/heads/main/QrisPayment.csv" # Langsung tentukan jalurnya
+csv_path = "https://raw.githubusercontent.com/Ni-karo/Streamlit-QRISPaymentGrowth/refs/heads/main/QrisPayment.csv"
 
 @st.cache_data
 def load_csv(path):
@@ -230,7 +230,7 @@ with cols[1].container(border=True, height="stretch"):
         alt.Chart(df_kendala)
         .mark_bar()
         .encode(
-            x=alt.X('Kendala:N', title='Kendala Menggunakan QRIS', axis=alt.Axis(labelAngle=0)), # Putar label agar tidak tumpang tindih
+            x=alt.X('Kendala:N', title='Kendala Menggunakan QRIS', axis=alt.Axis(labelAngle=0)),
             y=alt.Y('Jumlah_Responden:Q', title='Jumlah Pengguna', sort='-y'),
             tooltip=['Kendala', 'Jumlah_Responden']
         )
@@ -254,7 +254,7 @@ with cols[0].container(border=True, height="stretch"):
             x=alt.X('Kelompok_Usia:N', title="Kelompok Usia", axis=alt.Axis(labelAngle=0)),
             y=alt.Y('Tingkat_Efisiensi_QRIS:N', 
                     title="Efisiensi Rate",
-                    sort=list(map(str, sorted(df_heatmap['Tingkat_Efisiensi_QRIS'].unique(), reverse=True))) # Mengurutkan 5 ke 1
+                    sort=list(map(str, sorted(df_heatmap['Tingkat_Efisiensi_QRIS'].unique(), reverse=True)))
                    ), 
             color=alt.Color('Frekuensi:Q', title="Jumlah Responden"),
             tooltip=['Kelompok_Usia', 'Tingkat_Efisiensi_QRIS', 'Frekuensi']
@@ -282,4 +282,5 @@ with cols[1].container(border=True, height="stretch"):
     
 
     # run: python -m streamlit run qrisapp.py
+
 
