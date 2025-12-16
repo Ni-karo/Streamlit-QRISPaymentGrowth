@@ -74,8 +74,8 @@ Repositori ini menyajikan hasil analisis data survei komprehensif (Tahun 2025) m
 1.  **Clone Repositori:**
 
     ```bash
-    git clone [Link_Repo_Anda]
-    cd [Nama_Repo_Anda]
+    git clone [https://github.com/Ni-karo/Streamlit-QRISPaymentGrowth/tree/main]
+    cd [Streamlit-QRISPaymentGrowth]
     ```
 
 2.  **Instal Dependensi:**
